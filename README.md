@@ -15,6 +15,9 @@ PlanetScope SuperDove time series
 3. https://code.earthengine.google.com/4c32e005f3db7a4e8fb6748a78472417 (TimeSeriesUsingRGRS2_PlanetScope_24_19_iNaturalists)
 
 
+I also uploaded all the Python scripts that were used to do the time series classification using different spectral indices and using PlanetScope SuperDove and Sentinel-2A.
+
+
 
 
 
