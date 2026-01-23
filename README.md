@@ -1,8 +1,7 @@
-# Detecting-Crested-Wheatgrass-Using-Remote-Sensing_2
-This repository will contain code from the third chapter.  I have uploaded the scripts along with the Excel/CSV files that are required to run the scripts. Please take a look at the extended description of each script to understand what it does.
+# Detecting Crested Wheatgrass Using Remote Sensing 2
+This repository contains the code used in this [paper](https://www.sciencedirect.com/science/article/pii/S1195103626000029?via%3Dihub). It includes all relevant scripts, along with the required Excel/CSV files needed to run them. Each script is accompanied by an extended description explaining its purpose and functionality.
 
-
-This is the GEE JavaScript files that were created to formulate the time series data using both PlanetScope and Sentinel data. These GEE links will have the the assest links along with the scripts, which is why it is easier to share the links only.
+The repository also includes Google Earth Engine (GEE) JavaScript files developed to generate time-series data using both PlanetScope and Sentinel imagery. The shared GEE links contain the scripts as well as the associated asset links, which is why sharing the GEE links directly is the most convenient approach.
 
 Sentinel-2A time series
 1. https://code.earthengine.google.com/475ec2439d7e57e83b13eedf231bfe12 (TimeSeriesUsingNDVI_Sentinel2A_24_19_iNaturalists)
