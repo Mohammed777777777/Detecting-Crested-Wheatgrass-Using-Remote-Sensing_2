@@ -1,7 +1,7 @@
 # Detecting Crested Wheatgrass Using Remote Sensing 2
 This repository contains the code used in this [paper](https://www.sciencedirect.com/science/article/pii/S1195103626000029?via%3Dihub). It includes all relevant scripts, along with the required Excel/CSV files needed to run them. Each script is accompanied by an extended description explaining its purpose and functionality.
 
-The repository also includes Google Earth Engine (GEE) JavaScript files developed to generate time-series data using both PlanetScope and Sentinel imagery. The shared GEE links contain the scripts as well as the associated asset links, which is why sharing the GEE links directly is the most convenient approach.
+The repository also includes Google Earth Engine (GEE) JavaScript files used to generate time-series data using both PlanetScope and Sentinel imagery. The shared GEE links contain the scripts as well as the associated asset links, which is why sharing the GEE links directly is the most convenient approach.
 
 Sentinel-2A time series
 1. https://code.earthengine.google.com/475ec2439d7e57e83b13eedf231bfe12 (TimeSeriesUsingNDVI_Sentinel2A_24_19_iNaturalists)
@@ -14,7 +14,7 @@ PlanetScope SuperDove time series
 3. https://code.earthengine.google.com/4c32e005f3db7a4e8fb6748a78472417 (TimeSeriesUsingRGRS2_PlanetScope_24_19_iNaturalists)
 
 
-I also uploaded all the Python scripts that were used to do the time series classification using different spectral indices and using PlanetScope SuperDove and Sentinel-2A. So, the order of the files are these: you have to run the GEE JavaScript files first to get the time series data. Then, you have to run the Python scripts that use that data.
+All Python scripts used for the presence absence classification are also included. These scripts implement classification using the time series of PlanetScope SuperDove and Sentinel-2A spectral indices. The workflow is as follows: first, run the Google Earth Engine (GEE) JavaScript files to generate the time-series data; then, run the Python scripts that use the generated data for classification.
 
 
 
